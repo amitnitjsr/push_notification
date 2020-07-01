@@ -29,7 +29,7 @@ app.post("/subscribe", (req, res) => {
   res.status(201).json({});
 
   // Create payload
-  const payload = JSON.stringify({ title: "Push Test" });
+  const payload = JSON.stringify({ title: "Push Test..." });
 
   // Pass object into sendNotification
   webpush
